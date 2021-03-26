@@ -1,0 +1,7 @@
+The first section of this book is basic, but if you haven't been familiar
+the basic knowledge of Tck/Tk, you may get stuck by this features.
+Just do it step by step. Learn it, one bite at a time.
+
+
+Andy, just start to write it, type it, understand it, be familiar to it.
+Go on your Journey to Tcl/Tk. 2021-03-26 11:32:07
