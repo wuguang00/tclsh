@@ -25,6 +25,7 @@ button .power   -text "C" -command "exit"
 button .lable2  -text "D" -command "exit"
 button .result  -text "E" -command "exit"
 
+# Now the means of pack, I have no idea.
 pack .base .llabel1 .power .lable2 .result \
     -side left -padx 8m -pady 8m
 
@@ -33,5 +34,13 @@ grid .llabel1
 grid .power
 grid .lable2
 grid .result
+
+
+
+
+
+
+
+
 
 
