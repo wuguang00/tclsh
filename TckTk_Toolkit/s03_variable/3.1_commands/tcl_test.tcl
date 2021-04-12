@@ -47,22 +47,53 @@ unset -nocomplain j
 puts ""
 
 
-
-# 5. array
-# array exists arrayName
+# 5. array exists arrayName
 # None:  0
 # exits: 1
+puts "\nTrue or False:"
 puts [array exists arrayName]
 
+set earnings(January) 100
+
 # 6. array get arrayName ?pattern?
+# array get arrayName ?pattern?
 
-# Maybe I can write this section again after I studied the basic knowledge of this section.
+array get earnings
+puts [array get earnings]
+puts [array get earnings *Jan*]
+
+# 7. array exists arrayName
+# array exists arrayName ?mode? ?pattern?
+array names earnings
+puts [array names earnings]
 
 
+# 8. array set arrayName dictionary
+# array set arrayName dictionary
+# dictionary: key value's pair
+
+set a(head) hat
+set a(hand) glove
+set a(foot) shoe
+set apparel [array get a]
+puts [set apparel [array get a]]
+
+array set b $apparel
+puts [array set b $apparel]
+puts [array names b]
+
+# 9. array size arrayName
+# array size arrayName
+puts [array size b]
 
 
+# 10. array statistics arrayName
+# array statistics arrayName
+puts [array statistics b]
 
 
-
+# 11. array unset arrayName
+# array unset arrayName ?pattern?
+puts [array unset b]
 
 
