@@ -1,6 +1,7 @@
 #!/usr/bin/tclsh
 
 string length "Sample string"
+
 puts [string length "Sample string"]
 puts [string length "Sample string1"]
 
